@@ -1,0 +1,14 @@
+# Local runtime data: client MACs, broker PSK, saved positions. Never commit.
+logs/
+# Credentials (the app keeps its real settings in %LOCALAPPDATA%\RuckusLocationServices, but never commit a local copy)
+config/settings.json
+*.pem
+*.key
+# Environment / build
+.venv/
+__pycache__/
+*.pyc
+# OS / editor
+.DS_Store
+Thumbs.db
+*.bak

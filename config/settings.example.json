@@ -1,0 +1,9 @@
+{
+  "ruckus_one": {
+    "base_url": "https://api.ruckus.cloud",
+    "auth_url": "https://ruckus.cloud",
+    "tenant_id": "",
+    "client_id": "",
+    "client_secret": ""
+  }
+}

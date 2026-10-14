@@ -1,6 +1,6 @@
 # RUCKUS Location Services v1.4
 
-Windows-native RUCKUS One LBS receiver and floorplan location application.
+Windows-native RUCKUS One LBS receiver and floorplan location application. Not a production ready product, just used to evaluate R1 LBS services.
 
 ## v1.4 fix
 This build fixes stale Mosquitto processes left behind by earlier RUCKUS Location Services builds. On startup it identifies only `mosquitto.exe` processes whose command line contains `RUCKUS-Location-Services` and terminates those orphaned application brokers before starting a new broker. The normal Windows Mosquitto service (`mosquitto.exe run`) is never touched.
